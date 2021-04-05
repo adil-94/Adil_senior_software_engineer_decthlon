@@ -1,0 +1,67 @@
+.back_to_home_btn{
+    margin-bottom: 5px !important;
+    margin-left: 5px !important;
+  }
+  .avatar_images_sm{
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .bank_offer{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .product_side_details{
+    padding-left: 20px !important;
+  }
+  .bank_offer_align{
+    display: flex;
+    justify-content: center;
+  }
+  .addtocart_btn{
+    background-color: #ff9f00 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    width: 100%;
+  }
+  .buynow_btn{
+    background-color: #fb641b !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    width: 100%;
+  }
+  .offer_icon{
+    color: green;
+  }
+  .button_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login_btn{
+    background-color: #3f51b5 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    width: 100%;
+  }
+  .clear_icon{
+    cursor: pointer;
+  }
+  .login_avatar{
+    display: flex;
+    justify-content: center;
+  }
+  .login_avatar_icon{
+    font-size: 60px !important;
+    color: #3f51b5;
+  }
+  .location_icon{
+    color: #3f51b5;
+  }
+  .signin_btn{
+    color: #fff !important;
+    text-transform: unset !important;
+    border: 1px solid #fff !important;
+  }
+  .menu_icons{
+    margin-right: 5px;
+}
