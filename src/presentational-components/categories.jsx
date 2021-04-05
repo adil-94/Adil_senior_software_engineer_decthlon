@@ -34,10 +34,8 @@ function Categories() {
     const history = useHistory();
     const dispatch = useDispatch();
     const auth = useSelector((state) => state.loginReducer.auth);
-    console.log("auth in category after treu isss= ", auth)
 
     const onCatagorySelect = (id) => {
-        console.log("onCatagorySelect= ", id);
         dispatch(getSelectedCategoryProducts(id))
         history.push({
             pathname: '/products',

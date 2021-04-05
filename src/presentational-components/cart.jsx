@@ -52,7 +52,6 @@ function Cart() {
     const cartItems = useSelector((state) => state.cartReducer.cartItems);
     const cartItemsCount = useSelector((state) => state.cartReducer.cartItemsCount);
     const auth = useSelector((state) => state.loginReducer.auth);
-    console.log("cartItems= ", cartItems)
 
     const onBackToHome = (category) => {
         dispatch(getCartFlag(0))
@@ -64,7 +63,6 @@ function Cart() {
     const onDecrement = (id) => {
         let items = [...cartItems];
         let index = items.findIndex(x => x.id === id);
-        console.log("decrement before= ", items, index, id)
         if (items[index].count === 1) {
             items.splice(index, 1)
         } else {
@@ -76,13 +74,11 @@ function Cart() {
     const onIncrement = (id) => {
         let items = [...cartItems];
         let index = items.findIndex(x => x.id === id);
-        console.log("Increment before= ", items, index, id)
         items[index].count++;
         dispatch(getCartItems(items))
         dispatch(getCartItemsCount(cartItemsCount + 1))
     }
     const onCheckOut = () => {
-        console.log("onCheckOut= ",auth);
         if(auth){
             history.push('/checkout',{from:'cart'})
         }else{

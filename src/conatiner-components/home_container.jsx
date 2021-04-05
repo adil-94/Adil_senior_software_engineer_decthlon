@@ -34,7 +34,6 @@ function HomeContainer() {
     const cartFlag = useSelector((state) => state.cartReducer.cartFlag);
     const cartItemsCount = useSelector((state) => state.cartReducer.cartItemsCount);
     const savedOrders = useSelector((state) => state.savedOrdersReducer.savedOrders);
-    console.log("home= savedOrders= ", savedOrders)
 
     const handleProfileMenuOpen = (event) => {
         if(!auth){

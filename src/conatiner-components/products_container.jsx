@@ -37,7 +37,6 @@ function ProductsContainer() {
 
     const categorySelected = useSelector((state) => state.categoryReducer.categorySelected);
     const catagoriesData = useSelector((state) => state.productReducer.catagoriesData);
-    console.log("catagoriesData= ", catagoriesData['electronics']);
     let category = [];
     if (categorySelected === 'electronics') {
         category = catagoriesData['electronics']
@@ -61,7 +60,6 @@ function ProductsContainer() {
             state: { from: item }
         })
     }
-    console.log("category= ", category);
     return (
         <React.Fragment>
             <Container className={classes.container}>

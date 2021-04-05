@@ -71,7 +71,6 @@ function Product(props) {
     }, []);
 
     const onBackToCategories = () => {
-        console.log("onBack= ",)
         history.push({
             pathname: '/products',
             state: { from: 'products' }
@@ -98,13 +97,11 @@ function Product(props) {
                 }
                 return o;
             })
-            console.log("found= ", result)
             dispatch(getCartItems(result));
         } else {
             let newItem = { ...addItem }
             newItem.count = 1;
             items.push(newItem);
-            console.log(" Not found= ", newItem, items);
             dispatch(getCartItems(items));
         }
         dispatch(getCartItemsCount(cartItemsCount + 1))

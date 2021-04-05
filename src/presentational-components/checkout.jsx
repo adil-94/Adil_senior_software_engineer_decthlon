@@ -28,7 +28,6 @@ function Checkout({...rest}) {
     const classes = useStyles();
     const history = useHistory();
     const dispatch = useDispatch();
-    console.log("rest= ",rest.location.state.from);
 
     const cartItems = useSelector((state) => state.cartReducer.cartItems);
     //getSavedOrders
