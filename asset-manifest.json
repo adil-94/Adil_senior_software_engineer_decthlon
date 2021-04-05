@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Adil_senior_software_engineer_decthlon/static/css/main.6a2d9f1a.chunk.css",
+    "main.js": "/Adil_senior_software_engineer_decthlon/static/js/main.468f1bad.chunk.js",
+    "main.js.map": "/Adil_senior_software_engineer_decthlon/static/js/main.468f1bad.chunk.js.map",
+    "runtime-main.js": "/Adil_senior_software_engineer_decthlon/static/js/runtime-main.2a9cb263.js",
+    "runtime-main.js.map": "/Adil_senior_software_engineer_decthlon/static/js/runtime-main.2a9cb263.js.map",
+    "static/js/2.9281c0a0.chunk.js": "/Adil_senior_software_engineer_decthlon/static/js/2.9281c0a0.chunk.js",
+    "static/js/2.9281c0a0.chunk.js.map": "/Adil_senior_software_engineer_decthlon/static/js/2.9281c0a0.chunk.js.map",
+    "static/js/3.fe235f72.chunk.js": "/Adil_senior_software_engineer_decthlon/static/js/3.fe235f72.chunk.js",
+    "static/js/3.fe235f72.chunk.js.map": "/Adil_senior_software_engineer_decthlon/static/js/3.fe235f72.chunk.js.map",
+    "index.html": "/Adil_senior_software_engineer_decthlon/index.html",
+    "static/css/main.6a2d9f1a.chunk.css.map": "/Adil_senior_software_engineer_decthlon/static/css/main.6a2d9f1a.chunk.css.map",
+    "static/js/2.9281c0a0.chunk.js.LICENSE.txt": "/Adil_senior_software_engineer_decthlon/static/js/2.9281c0a0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Adil_senior_software_engineer_decthlon/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a9cb263.js",
+    "static/js/2.9281c0a0.chunk.js",
+    "static/css/main.6a2d9f1a.chunk.css",
+    "static/js/main.468f1bad.chunk.js"
+  ]
+}
