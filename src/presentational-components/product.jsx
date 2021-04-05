@@ -86,7 +86,7 @@ function Product(props) {
         let found = 0;
         items && items.map((i) => {
             if (i.id === addItem.id) {
-                found = 1
+                found = 1;
             }
         });
         if (found === 1) {
